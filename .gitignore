@@ -1,0 +1,8 @@
+*.o
+*.hipi
+*.hipfb
+*.out
+*.bc
+*.s
+*.tmp.*
+*.resolution.txt
