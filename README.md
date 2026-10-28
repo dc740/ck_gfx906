@@ -13,4 +13,7 @@ epilogue - same I/O contract as upstream conv3d_fp16.hip.
 
 Sibling project: github.com/dc740/gfx906 (attention kernels, same silicon rules).
 
-Status: in development, not yet GPU-validated.
+Status: superseded scratch repo - the VALU conv3d kernel was folded into
+github.com/dc740/gfx906 (`hip_conv/` + `gfx906_kitchen.py`), where it is
+hardware-validated and maintained. Kept only for the `upstream/` vendored
+reference diff.
